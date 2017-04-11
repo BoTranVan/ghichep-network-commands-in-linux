@@ -37,9 +37,8 @@ ___
 			- `-e| --mpls`: Yêu cầu mtr hiển thị thêm về thông tin của icmp trong gói tin phản hồi.
 				> ![images](../../images/TVBO/mtr/mtr_e.png)
 			- `-n| --no-dns`: Sử dụng tùy chọn này để buộc mtr hiển thị các IP và không cố gắng phân giải tên máy chủ lưu trữ.
-			- `-o  fieldname| --order fieldname`: Sử dụng tùy chọn này để chỉ định các trường và thứ tự của chúng khi chạy mtr.
-				> Giá trị của fieldname được cho như hình bên dưới:
-				![images](../../images/TVBO/mtr/mtr_orders_fields.png)
+			- `-o  fieldname| --order fieldname`: Sử dụng tùy chọn này để chỉ định các trường và thứ tự của chúng khi chạy mtr. Giá trị của fieldname được cho như hình bên dưới:
+				> ![images](../../images/TVBO/mtr/mtr_orders_fields.png)
 			- `-g| --gtk`: Sử dụng mtr với giao diện người dùng (có thể)
 			- `-a IP.ADD.RE.SS| --address IP.ADD.RE.SS`: Sử dụng tùy chọn này để buộc socket của gói tin đi ra qua một interface khai báo.(không áp dụng cho DNS requests)
 			- `-i SECONDS| --interval SECONDS`: Quy định khoảng thời gian chờ gửi tin là SECONDS giây. (mặc định là 1s)
