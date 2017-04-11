@@ -11,7 +11,7 @@ ___
 
 # Nội dung
 
-- <a name="about">## Giới thiệu về mtr</a>
+- <a name="about"> ## Giới thiệu về mtr</a>
 	
 	+ `mtr` là một câu lệnh cho phép thực thi chương trình chuẩn đoán mạng trên terminal linux
 	+ `mtr` là một chương trình được phát triển dựa trên chức năng của hai câu lệnh chuẩn đoán mạng khác là: `traceroute` và `ping`
@@ -19,7 +19,7 @@ ___
 
 ___
 
-- <a name="syntax">## Cú pháp và các tùy chọn của lệnh mtr</a>
+- <a name="syntax"> ## Cú pháp và các tùy chọn của lệnh mtr</a>
 
 	+ Cú pháp chung cho câu lệnh `mtr` là:
 		> `mtr [options] HOSTNAME`
@@ -50,7 +50,7 @@ ___
 
 ___
 
-- <a name="shortkey">## Phím tắt khi sử dụng mtr</a>
+- <a name="shortkey"> ## Phím tắt khi sử dụng mtr</a>
 
 	+ Trong quá trình sử dụng câu lệnh đơn giản `mtr HOSTNAME`. Bạn có thể sử dụng thêm các tùy chọn khác trong khi mtr còn đang hoạt động bằng việc nhấn các phím được cho như hình sau đây để lựa chọn và thiết lập các tùy chọn:
 	> ![images](../../images/TVBO/mtr/mtr_shortkey.png)
@@ -62,4 +62,5 @@ ___
 
 	- mtr là một công cụ chuẩn đoán mạng kết hợp bởi 2 công cụ `ping` và `traceroute`. Nó cho phép biết đường đi giống như `traceroute`, thời gian phản hồi của gói tin giống như `ping` và tỉ lệ tin bị lỗi, đã gửi mà ping không có. Ta có thể biết được tại thời điểm nào, tại hop nào mà gói tin bị mất và mất bao nhiêu %, ...
 	> ![images](../../images/TVBO/mtr/mtr_loss.png)
+	
 	Nhìn vào hình, bạn có thể thấy được tại hop 6 và hop 7, phần trăm gói tin bị thất lạc là 10% ^.^ Ngoài ra còn biết được thời gian phản hồi gói tin, ...
