@@ -63,3 +63,4 @@ ___
 	> ![images](../../images/TVBO/mtr/mtr_loss.png)
 	
 	Nhìn vào hình, bạn có thể thấy được tại hop 6 và hop 7, phần trăm gói tin bị thất lạc là 10% ^.^ Ngoài ra còn biết được thời gian phản hồi gói tin, ...
+	- có thể xem mtr là một công cụ được tích hơp giữa ping và traceroute. Vậy nên, những gì mà ping, traceroute làm được thì mtr đều có thể làm được.
